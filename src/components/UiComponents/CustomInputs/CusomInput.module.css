@@ -1,0 +1,30 @@
+.inputPair {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  color: var(--white-font-color);
+  font-size: var(--s-font-size);
+  font-family: var(--text-font);
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin-left: 1.81rem;
+  transition: 0.3s ease all;
+}
+.input {
+  padding: 1rem 1.81rem 0.81rem 1.81rem;
+  background-color: transparent;
+  border-radius: 0.25rem;
+  border: 1px solid var(--white-font-color);
+  outline: none;
+  color: var(--white-font-color);
+  font-size: var(--s-font-size);
+  font-family: var(--text-font);
+}
+.input:focus + .label,
+.shrink {
+  font-size: 0.6rem;
+  top: 30%;
+}
