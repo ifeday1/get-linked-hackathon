@@ -233,4 +233,4 @@ const ContactUsPage: FC = () => {
   );
 };
 
-export default ContactUsPage
+export default ContactUsPage;
